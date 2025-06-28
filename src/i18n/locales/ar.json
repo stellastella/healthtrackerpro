@@ -1,0 +1,63 @@
+{
+  "app": {
+    "name": "HealthTracker Pro",
+    "tagline": "رفيقك الشامل لمراقبة الصحة",
+    "description": "تتبع متقدم لضغط الدم والتحليلات"
+  },
+  "navigation": {
+    "home": "الرئيسية",
+    "overview": "نظرة عامة",
+    "history": "التاريخ",
+    "trends": "الاتجاهات",
+    "analytics": "التحليلات",
+    "recommendations": "التوصيات",
+    "backToHome": "العودة للرئيسية"
+  },
+  "auth": {
+    "signIn": "تسجيل الدخول",
+    "signUp": "إنشاء حساب",
+    "signOut": "تسجيل الخروج",
+    "createAccount": "إنشاء حساب",
+    "resetPassword": "إعادة تعيين كلمة المرور",
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "fullName": "الاسم الكامل",
+    "enterEmail": "أدخل بريدك الإلكتروني",
+    "enterPassword": "أدخل كلمة المرور",
+    "enterFullName": "أدخل اسمك الكامل"
+  },
+  "bloodPressure": {
+    "title": "مراقب ضغط الدم",
+    "description": "تتبع قراءات ضغط الدم، راقب الاتجاهات، واحصل على رؤى حول صحة القلب والأوعية الدموية مع التحليلات المتقدمة.",
+    "addReading": "إضافة قراءة",
+    "latestReading": "أحدث قراءة",
+    "systolic": "الانقباضي",
+    "diastolic": "الانبساطي",
+    "pulse": "النبض"
+  },
+  "common": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "export": "تصدير",
+    "import": "استيراد",
+    "share": "مشاركة",
+    "loading": "جاري التحميل",
+    "date": "التاريخ",
+    "time": "الوقت",
+    "location": "الموقع"
+  },
+  "locations": {
+    "home": "المنزل",
+    "clinic": "العيادة",
+    "hospital": "المستشفى",
+    "pharmacy": "الصيدلية"
+  },
+  "language": {
+    "selectLanguage": "اختر اللغة",
+    "currentLanguage": "اللغة الحالية",
+    "changeLanguage": "تغيير اللغة"
+  }
+}

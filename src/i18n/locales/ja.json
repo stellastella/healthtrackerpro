@@ -1,0 +1,63 @@
+{
+  "app": {
+    "name": "HealthTracker Pro",
+    "tagline": "あなたの包括的な健康監視コンパニオン",
+    "description": "高度な血圧追跡と分析"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "overview": "概要",
+    "history": "履歴",
+    "trends": "トレンド",
+    "analytics": "分析",
+    "recommendations": "推奨事項",
+    "backToHome": "ホームに戻る"
+  },
+  "auth": {
+    "signIn": "サインイン",
+    "signUp": "サインアップ",
+    "signOut": "サインアウト",
+    "createAccount": "アカウント作成",
+    "resetPassword": "パスワードリセット",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "fullName": "フルネーム",
+    "enterEmail": "メールアドレスを入力",
+    "enterPassword": "パスワードを入力",
+    "enterFullName": "フルネームを入力"
+  },
+  "bloodPressure": {
+    "title": "血圧モニター",
+    "description": "血圧測定値を追跡し、トレンドを監視し、高度な分析で心血管の健康に関する洞察を得ます。",
+    "addReading": "測定値を追加",
+    "latestReading": "最新の測定値",
+    "systolic": "収縮期",
+    "diastolic": "拡張期",
+    "pulse": "脈拍"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "add": "追加",
+    "export": "エクスポート",
+    "import": "インポート",
+    "share": "共有",
+    "loading": "読み込み中",
+    "date": "日付",
+    "time": "時間",
+    "location": "場所"
+  },
+  "locations": {
+    "home": "自宅",
+    "clinic": "クリニック",
+    "hospital": "病院",
+    "pharmacy": "薬局"
+  },
+  "language": {
+    "selectLanguage": "言語を選択",
+    "currentLanguage": "現在の言語",
+    "changeLanguage": "言語を変更"
+  }
+}

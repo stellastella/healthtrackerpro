@@ -1,0 +1,63 @@
+{
+  "app": {
+    "name": "HealthTracker Pro",
+    "tagline": "您的综合健康监测伴侣",
+    "description": "先进的血压跟踪和分析"
+  },
+  "navigation": {
+    "home": "首页",
+    "overview": "概览",
+    "history": "历史",
+    "trends": "趋势",
+    "analytics": "分析",
+    "recommendations": "建议",
+    "backToHome": "返回首页"
+  },
+  "auth": {
+    "signIn": "登录",
+    "signUp": "注册",
+    "signOut": "退出",
+    "createAccount": "创建账户",
+    "resetPassword": "重置密码",
+    "email": "邮箱地址",
+    "password": "密码",
+    "fullName": "全名",
+    "enterEmail": "输入您的邮箱",
+    "enterPassword": "输入您的密码",
+    "enterFullName": "输入您的全名"
+  },
+  "bloodPressure": {
+    "title": "血压监测器",
+    "description": "跟踪您的血压读数，监测趋势，通过先进的分析获得心血管健康洞察。",
+    "addReading": "添加读数",
+    "latestReading": "最新读数",
+    "systolic": "收缩压",
+    "diastolic": "舒张压",
+    "pulse": "脉搏"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "export": "导出",
+    "import": "导入",
+    "share": "分享",
+    "loading": "加载中",
+    "date": "日期",
+    "time": "时间",
+    "location": "位置"
+  },
+  "locations": {
+    "home": "家",
+    "clinic": "诊所",
+    "hospital": "医院",
+    "pharmacy": "药房"
+  },
+  "language": {
+    "selectLanguage": "选择语言",
+    "currentLanguage": "当前语言",
+    "changeLanguage": "更改语言"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "app": {
+    "name": "HealthTracker Pro",
+    "tagline": "Seu companheiro abrangente de monitoramento de saúde",
+    "description": "Rastreamento avançado de pressão arterial e análises"
+  },
+  "navigation": {
+    "home": "Início",
+    "overview": "Visão Geral",
+    "history": "Histórico",
+    "trends": "Tendências",
+    "analytics": "Análises",
+    "recommendations": "Recomendações",
+    "backToHome": "Voltar ao Início"
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signUp": "Cadastrar",
+    "signOut": "Sair",
+    "createAccount": "Criar Conta",
+    "resetPassword": "Redefinir Senha",
+    "email": "Endereço de Email",
+    "password": "Senha",
+    "fullName": "Nome Completo",
+    "enterEmail": "Digite seu email",
+    "enterPassword": "Digite sua senha",
+    "enterFullName": "Digite seu nome completo"
+  },
+  "bloodPressure": {
+    "title": "Monitor de Pressão Arterial",
+    "description": "Acompanhe suas leituras de pressão arterial, monitore tendências e obtenha insights sobre sua saúde cardiovascular com análises avançadas.",
+    "addReading": "Adicionar Leitura",
+    "latestReading": "Última Leitura",
+    "systolic": "Sistólica",
+    "diastolic": "Diastólica",
+    "pulse": "Pulso"
+  },
+  "common": {
+    "save": "Salvar",
+    "cancel": "Cancelar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "add": "Adicionar",
+    "export": "Exportar",
+    "import": "Importar",
+    "share": "Compartilhar",
+    "loading": "Carregando",
+    "date": "Data",
+    "time": "Hora",
+    "location": "Local"
+  },
+  "locations": {
+    "home": "Casa",
+    "clinic": "Clínica",
+    "hospital": "Hospital",
+    "pharmacy": "Farmácia"
+  },
+  "language": {
+    "selectLanguage": "Selecionar Idioma",
+    "currentLanguage": "Idioma Atual",
+    "changeLanguage": "Alterar Idioma"
+  }
+}

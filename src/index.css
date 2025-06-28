@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-red-600: #dc2626;
+  --color-red-600-rgb: 220, 38, 38;
+  --color-blue-600: #2563eb;
+  --color-blue-600-rgb: 37, 99, 235;
+  --color-green-600: #16a34a;
+  --color-green-600-rgb: 22, 163, 74;
+  --color-purple-600: #9333ea;
+  --color-purple-600-rgb: 147, 51, 234;
+  --color-indigo-600: #4f46e5;
+  --color-indigo-600-rgb: 79, 70, 229;
+  --color-orange-600: #ea580c;
+  --color-orange-600-rgb: 234, 88, 12;
+  --color-gray-600: #4b5563;
+  --color-gray-600-rgb: 75, 85, 99;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+.dark .prose {
+  color: #e5e7eb;
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose h5,
+.dark .prose h6,
+.dark .prose strong {
+  color: #f9fafb;
+}
+
+.dark .prose a {
+  color: #60a5fa;
+}
+
+.dark .prose blockquote {
+  color: #d1d5db;
+  border-left-color: #4b5563;
+}
+
+.dark .prose code {
+  color: #f9fafb;
+  background-color: #374151;
+}
+
+.dark .prose hr {
+  border-color: #4b5563;
+}
+
+.dark .prose ol > li::before {
+  color: #9ca3af;
+}
+
+.dark .prose ul > li::before {
+  background-color: #6b7280;
+}
+
+.dark .prose img {
+  border-color: #4b5563;
+}
+
+.dark .prose figure figcaption {
+  color: #9ca3af;
+}
+
+.dark .prose thead {
+  color: #f9fafb;
+  border-bottom-color: #4b5563;
+}
+
+.dark .prose tbody tr {
+  border-bottom-color: #374151;
+}
+
+/* Performance optimizations */
+img {
+  content-visibility: auto;
+}
+
+/* Reduce layout shifts */
+.min-h-screen {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Improve rendering performance */
+* {
+  backface-visibility: hidden;
+}
+
+/* Optimize animations */
+@layer utilities {
+  .animation-reduce {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Preload critical fonts */
+@layer base {
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiA.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fAZ9hiA.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYAZ9hiA.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYAZ9hiA.woff2) format('woff2');
+  }
+}
+
+/* Dark mode transitions */
+body,
+.transition-colors,
+.bg-white,
+.bg-gray-50,
+.bg-gray-100,
+.bg-gray-200,
+.bg-gray-800,
+.bg-gray-900,
+.text-gray-500,
+.text-gray-600,
+.text-gray-700,
+.text-gray-800,
+.text-gray-900,
+.text-white,
+.border-gray-100,
+.border-gray-200,
+.border-gray-300,
+.border-gray-600,
+.border-gray-700,
+.border-gray-800 {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}

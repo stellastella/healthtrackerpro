@@ -1,0 +1,308 @@
+{
+  "app": {
+    "name": "HealthTracker Pro",
+    "tagline": "Your comprehensive health monitoring companion",
+    "description": "Advanced blood pressure tracking & analytics"
+  },
+  "navigation": {
+    "home": "Home",
+    "overview": "Overview",
+    "history": "History",
+    "trends": "Trends",
+    "analytics": "Analytics",
+    "recommendations": "Recommendations",
+    "backToHome": "Back to Home"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "createAccount": "Create Account",
+    "resetPassword": "Reset Password",
+    "email": "Email Address",
+    "password": "Password",
+    "fullName": "Full Name",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "enterFullName": "Enter your full name",
+    "forgotPassword": "Forgot your password?",
+    "resetIt": "Reset it",
+    "dontHaveAccount": "Don't have an account?",
+    "alreadyHaveAccount": "Already have an account?",
+    "rememberPassword": "Remember your password?",
+    "sendResetEmail": "Send Reset Email",
+    "passwordMinLength": "Password must be at least 6 characters long",
+    "signInSuccess": "Successfully signed in!",
+    "accountCreated": "Account created successfully! Please check your email to verify your account.",
+    "resetEmailSent": "Password reset email sent! Please check your inbox.",
+    "benefits": {
+      "title": "Benefits of Creating an Account",
+      "accessFromAnyDevice": "Access your data from any device",
+      "automaticBackup": "Automatic cloud backup",
+      "shareWithDoctor": "Share reports with your doctor",
+      "advancedAnalytics": "Advanced analytics and insights",
+      "secureStorage": "Secure and private data storage"
+    }
+  },
+  "bloodPressure": {
+    "title": "Blood Pressure Monitor",
+    "description": "Track your blood pressure readings, monitor trends, and get insights into your cardiovascular health with advanced analytics.",
+    "addReading": "Add Reading",
+    "latestReading": "Latest Reading",
+    "systolic": "Systolic",
+    "diastolic": "Diastolic",
+    "pulse": "Pulse",
+    "topNumber": "Top number",
+    "bottomNumber": "Bottom number",
+    "mmHg": "mmHg",
+    "bpm": "bpm",
+    "pulseRate": "Pulse Rate (bpm) - Optional",
+    "measurementLocation": "Measurement Location",
+    "currentMedication": "Current Medication - Optional",
+    "symptoms": "Symptoms - Optional",
+    "notes": "Notes - Optional",
+    "notesPlaceholder": "Do you have any changes in your lifestyle today you want to share?",
+    "medicationPlaceholder": "e.g., Lisinopril 10mg",
+    "symptomsPlaceholder": "e.g., Headache, dizziness, chest pain",
+    "categories": {
+      "normal": "Normal",
+      "elevated": "Elevated",
+      "highStage1": "High BP Stage 1",
+      "highStage2": "High BP Stage 2",
+      "hypertensiveCrisis": "Hypertensive Crisis",
+      "normalDesc": "Your blood pressure is in the normal range. Keep up the good work!",
+      "elevatedDesc": "Your systolic pressure is elevated. Consider lifestyle changes.",
+      "highStage1Desc": "You have stage 1 high blood pressure. Consult your doctor.",
+      "highStage2Desc": "You have stage 2 high blood pressure. See your doctor promptly.",
+      "hypertensiveCrisisDesc": "This is a medical emergency. Seek immediate medical attention!"
+    }
+  },
+  "bloodSugar": {
+    "title": "Blood Sugar Monitor",
+    "description": "Monitor your glucose levels, track patterns, and manage diabetes with comprehensive logging and analysis tools.",
+    "addReading": "Add Blood Sugar Reading",
+    "glucose": "Glucose",
+    "testType": "Test Type",
+    "testLocation": "Test Location",
+    "mealInfo": "Meal Information - Optional",
+    "mealInfoPlaceholder": "e.g., Breakfast with oatmeal and fruit",
+    "medicationPlaceholder": "e.g., Metformin 500mg, Insulin 10 units",
+    "symptomsPlaceholder": "e.g., Feeling dizzy, thirsty, tired",
+    "notesPlaceholder": "Any additional notes about this reading...",
+    "normalRange": "Normal range: 70-140 mg/dL",
+    "testTypes": {
+      "fasting": "Fasting",
+      "preMeal": "Pre-meal",
+      "postMeal": "Post-meal",
+      "random": "Random",
+      "bedtime": "Bedtime",
+      "fastingDesc": "8+ hours without food",
+      "preMealDesc": "Before eating",
+      "postMealDesc": "1-2 hours after eating",
+      "randomDesc": "Any time of day",
+      "bedtimeDesc": "Before sleep"
+    },
+    "categories": {
+      "normal": "Normal",
+      "preDiabetes": "Pre-diabetes",
+      "diabetes": "Diabetes",
+      "critical": "Critical",
+      "lowBloodSugar": "Low Blood Sugar",
+      "normalDesc": "Your blood sugar levels are within the normal range. Keep up the good work!",
+      "preDiabetesDesc": "Your blood sugar is elevated. Consider lifestyle changes and consult your doctor.",
+      "diabetesDesc": "Your blood sugar indicates diabetes. Please consult with your healthcare provider.",
+      "criticalDesc": "This is a critical level. Seek immediate medical attention!",
+      "lowBloodSugarDesc": "Your blood sugar is dangerously low. Consume glucose immediately and seek medical help if symptoms persist."
+    }
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "export": "Export",
+    "import": "Import",
+    "share": "Share",
+    "loading": "Loading",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "date": "Date",
+    "time": "Time",
+    "setToNow": "Set to now",
+    "location": "Location",
+    "medication": "Medication",
+    "symptoms": "Symptoms",
+    "notes": "Notes",
+    "optional": "Optional",
+    "required": "Required",
+    "pleaseWait": "Please wait...",
+    "noData": "No data available",
+    "totalReadings": "Total Readings",
+    "thisWeek": "This Week",
+    "average": "Average",
+    "highest": "Highest",
+    "lowest": "Lowest",
+    "range": "Range",
+    "trend": "Trend",
+    "mostCommon": "Most Common",
+    "recentTrend": "Recent Trend",
+    "quickStats": "Quick Stats"
+  },
+  "locations": {
+    "home": "Home",
+    "clinic": "Clinic",
+    "hospital": "Hospital",
+    "pharmacy": "Pharmacy"
+  },
+  "dateTime": {
+    "dateAndTime": "Date & Time",
+    "selected": "Selected",
+    "yourTimezone": "Your timezone",
+    "invalidDateTime": "Please enter a valid date and time (not in the future and not more than 5 years ago)"
+  },
+  "statistics": {
+    "title": "Statistics",
+    "averageBP": "Average BP",
+    "estimatedHbA1c": "Estimated HbA1c",
+    "timeInRange": "Time in Range",
+    "inRange": "In Range",
+    "belowRange": "Below Range",
+    "aboveRange": "Above Range",
+    "basedOnAverage": "Based on average glucose",
+    "needMoreData": "Need more data for trends",
+    "addMoreReadings": "Add at least 2 readings to see trend analysis"
+  },
+  "cloud": {
+    "syncing": "Syncing...",
+    "synced": "Synced",
+    "cloudConnected": "Cloud Connected",
+    "localOnly": "Local Only",
+    "cloudEnabled": "Cloud Enabled"
+  },
+  "duplicates": {
+    "exactDuplicate": "Exact Duplicate Detected",
+    "similarEntry": "Similar Entry Found",
+    "duplicateDetected": "Duplicate entry detected!",
+    "similarDetected": "Similar entry detected!",
+    "addAnyway": "Add Anyway",
+    "addBoth": "Add Both Entries",
+    "duplicatesFound": "Duplicates Detected",
+    "uniqueOnly": "Import Unique Only",
+    "importAll": "Import All",
+    "recommendations": "Recommendations",
+    "cancel": "Cancel",
+    "review": "Review",
+    "verify": "Verify",
+    "multipleReadings": "Multiple readings",
+    "differentConditions": "Different conditions",
+    "dataAccuracy": "Data accuracy"
+  },
+  "import": {
+    "title": "Import Data",
+    "csvFormat": "CSV Format Requirements",
+    "downloadTemplate": "Download CSV Template",
+    "uploadFile": "Upload CSV File",
+    "pasteData": "Or Paste CSV Data",
+    "clickToUpload": "Click to upload CSV file or drag and drop",
+    "pasteHere": "Paste your CSV data here...",
+    "errorsFound": "Errors Found",
+    "preview": "Preview",
+    "processing": "Processing...",
+    "importRecords": "Import Records"
+  },
+  "export": {
+    "title": "Share Your Data",
+    "reportFormat": "Report Format",
+    "timePeriod": "Time Period",
+    "summary": "Summary",
+    "detailed": "Detailed",
+    "chartData": "Chart Data",
+    "keyMetrics": "Key metrics",
+    "allReadings": "All readings",
+    "csvFormat": "CSV format",
+    "last7Days": "Last 7 days",
+    "last30Days": "Last 30 days",
+    "allTime": "All time",
+    "preview": "Preview",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "download": "Download",
+    "email": "Email"
+  },
+  "home": {
+    "title": "Take Control of Your Health Journey",
+    "subtitle": "Monitor your vital health metrics with precision. Get personalized insights, track trends, and make informed decisions about your wellbeing.",
+    "features": {
+      "smartAnalytics": {
+        "title": "Smart Analytics",
+        "description": "Advanced insights and trend analysis for better health decisions"
+      },
+      "visualReports": {
+        "title": "Visual Reports",
+        "description": "Beautiful charts and graphs to track your progress over time"
+      },
+      "historicalData": {
+        "title": "Historical Data",
+        "description": "Log past readings and maintain comprehensive health records"
+      },
+      "securePrivate": {
+        "title": "Secure & Private",
+        "description": "Your health data stays on your device, completely private"
+      }
+    },
+    "bloodPressureTracker": {
+      "title": "Blood Pressure Monitor",
+      "description": "Track your blood pressure readings, monitor trends, and get insights into your cardiovascular health with advanced analytics.",
+      "features": {
+        "systolicDiastolic": "Systolic & Diastolic tracking",
+        "heartRate": "Heart rate monitoring",
+        "riskAnalysis": "Risk category analysis"
+      },
+      "startTracking": "Start Tracking BP"
+    },
+    "bloodSugarTracker": {
+      "title": "Blood Sugar Monitor",
+      "description": "Monitor your glucose levels, track patterns, and manage diabetes with comprehensive logging and analysis tools.",
+      "features": {
+        "glucoseTracking": "Glucose level tracking",
+        "mealMedication": "Meal & medication logging",
+        "hba1cEstimation": "HbA1c estimation"
+      },
+      "startTracking": "Start Tracking Sugar"
+    },
+    "whyChoose": "Why Choose HealthTracker Pro?",
+    "whyChooseDesc": "Built with cutting-edge technology and designed by healthcare professionals to give you the most accurate and actionable health insights.",
+    "trustedBy": "Trusted by Healthcare Professionals",
+    "trustedByDesc": "See what our users and medical experts are saying",
+    "readyToTransform": "Ready to Transform Your Health?",
+    "readyToTransformDesc": "Join thousands of users who have taken control of their health journey. Start tracking today and see the difference comprehensive monitoring can make.",
+    "privacyFirst": "Your privacy-first health monitoring companion",
+    "private": "100% Private",
+    "trustedByUsers": "Trusted by 10k+ users",
+    "medicalGrade": "Medical Grade",
+    "advancedAnalytics": "Advanced Analytics",
+    "numberOneApp": "#1 Health Tracking App"
+  },
+  "language": {
+    "selectLanguage": "Select Language",
+    "currentLanguage": "Current Language",
+    "changeLanguage": "Change Language"
+  },
+  "errors": {
+    "invalidBloodPressure": "Please enter valid blood pressure values",
+    "systolicHigher": "Systolic pressure should be higher than diastolic pressure",
+    "invalidGlucose": "Please enter a valid blood glucose value (20-600 mg/dL)",
+    "failedToSave": "Failed to save reading. Please try again.",
+    "failedToDelete": "Failed to delete reading. Please try again.",
+    "unexpectedError": "An unexpected error occurred. Please try again."
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "invalidRange": "Value is outside the valid range"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "app": {
+    "name": "HealthTracker Pro",
+    "tagline": "Il tuo compagno completo per il monitoraggio della salute",
+    "description": "Monitoraggio avanzato della pressione sanguigna e analisi"
+  },
+  "navigation": {
+    "home": "Home",
+    "overview": "Panoramica",
+    "history": "Cronologia",
+    "trends": "Tendenze",
+    "analytics": "Analisi",
+    "recommendations": "Raccomandazioni",
+    "backToHome": "Torna alla Home"
+  },
+  "auth": {
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "signOut": "Esci",
+    "createAccount": "Crea Account",
+    "resetPassword": "Reimposta Password",
+    "email": "Indirizzo Email",
+    "password": "Password",
+    "fullName": "Nome Completo",
+    "enterEmail": "Inserisci la tua email",
+    "enterPassword": "Inserisci la tua password",
+    "enterFullName": "Inserisci il tuo nome completo"
+  },
+  "bloodPressure": {
+    "title": "Monitor Pressione Sanguigna",
+    "description": "Traccia le tue letture della pressione sanguigna, monitora le tendenze e ottieni insights sulla tua salute cardiovascolare con analisi avanzate.",
+    "addReading": "Aggiungi Lettura",
+    "latestReading": "Ultima Lettura",
+    "systolic": "Sistolica",
+    "diastolic": "Diastolica",
+    "pulse": "Polso"
+  },
+  "common": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "add": "Aggiungi",
+    "export": "Esporta",
+    "import": "Importa",
+    "share": "Condividi",
+    "loading": "Caricamento",
+    "date": "Data",
+    "time": "Ora",
+    "location": "Posizione"
+  },
+  "locations": {
+    "home": "Casa",
+    "clinic": "Clinica",
+    "hospital": "Ospedale",
+    "pharmacy": "Farmacia"
+  },
+  "language": {
+    "selectLanguage": "Seleziona Lingua",
+    "currentLanguage": "Lingua Attuale",
+    "changeLanguage": "Cambia Lingua"
+  }
+}
