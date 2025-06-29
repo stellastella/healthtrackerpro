@@ -77,18 +77,18 @@ function App() {
         setBloodSugarReadings(storedBS);
         
         // Check for existing consent
-        const storedConsent = localStorage.getItem('userConsent');
-        if (storedConsent) {
-          try {
-            setConsentPreferences(JSON.parse(storedConsent));
-          } catch (e) {
-            console.error('Error parsing stored consent:', e);
-            setShowConsentModal(true);
-          }
-        } else {
-          // Show consent modal for first-time users
-          setShowConsentModal(true);
-        }
+        // const storedConsent = localStorage.getItem('userConsent');
+        // if (storedConsent) {
+        //   try {
+        //     setConsentPreferences(JSON.parse(storedConsent));
+        //   } catch (e) {
+        //     console.error('Error parsing stored consent:', e);
+        //     setShowConsentModal(true);
+        //   }
+        // } else {
+        //   // Show consent modal for first-time users
+        //   setShowConsentModal(true);
+        // }
         
         setInitialDataLoaded(true);
       } catch (error) {
